@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "target": "es5",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "composite": true,
+    "jsx": "react",
+    "baseUrl": ".", // This must be specified if "paths" is.
+      "paths": {
+        "@components/*": ["src/components/*"]
+    }
+  },
+  "files": ["./src/index.tsx"],
+  "include": ["src"]
+}
